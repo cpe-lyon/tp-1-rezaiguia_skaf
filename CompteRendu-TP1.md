@@ -46,7 +46,7 @@ La commande *ls /bin* permet d'afficher le contenu du répertoire /bin.
 La commande *ls* énumère les fichiers et dossiers présents dans le répertoire courant.
 La commande pwd permet d'afficher le répertoire courant.
 
-N'importe quelle commande suivie du chevron (et on ne parle pas du fils du chevreuil mais bien du '>') redirige la sortie de cette commande dans un fichier donné en argument après le chevron, exemple : 
+N'importe quelle commande suivie du chevron redirige la sortie de cette commande dans un fichier donné en argument après le chevron, exemple : 
 > echo 'yo' > plop
 
 > Cette commande va écrire "yo" dans le fichier plop. Si cette commande est exécutée 2 fois, on remplace le fichier plop par la nouvelle sortie de la commande. Pour écrire à la suite il faut mettre deux chevrons *echo 'yo' >> plop*.
