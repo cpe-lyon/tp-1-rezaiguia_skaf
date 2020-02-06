@@ -51,4 +51,19 @@ N'importe quelle commande suivie du chevron (et on ne parle pas du fils du chevr
 
 > Cette commande va écrire "yo" dans le fichier plop. Si cette commande est exécutée 2 fois, on remplace le fichier plop par la nouvelle sortie de la commande. Pour écrire à la suite il faut mettre deux chevrons *echo 'yo' >> plop*.
 
+La commande *file* permet de déterminer le type d'un fichier 
+
+Lorsqu'on crée un lien avec la commande *ln toto titi* et qu'on modifie toto, le lien titi est également modifié. La suppression de toto n'entraîne pas la suppressin de titi.
+
+Si on crée un lien symbolique, la suppression de toto entrînera celle de titi.
+
+Le raccourci ctrl+c permet de terminer le défilement en cours.
+
+Pour afficher les 5 premières lignes d'un fichiers, on utilise la commande *head -n 5 fichier*
+Pour afficher les X dernières lignes d'un fichier, on utilise la commande *tail -n X fichier*
+Pour afficher de la ligne a à la ligne b on utlise : *sed -n a,bp fichier*
+
+
+
+
 
