@@ -67,3 +67,7 @@ Pour afficher de la ligne a à la ligne b on utlise : *sed -n a,bp fichier*
 
 
 
+
+
+
+
